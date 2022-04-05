@@ -1,0 +1,12 @@
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/obj/Debug/netcoreapp3.1/fundamentals_I.csprojAssemblyReference.cache
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/obj/Debug/netcoreapp3.1/fundamentals_I.AssemblyInfoInputs.cache
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/obj/Debug/netcoreapp3.1/fundamentals_I.AssemblyInfo.cs
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/obj/Debug/netcoreapp3.1/fundamentals_I.csproj.CoreCompileInputs.cache
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/bin/Debug/netcoreapp3.1/fundamentals_I.deps.json
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/bin/Debug/netcoreapp3.1/fundamentals_I.runtimeconfig.json
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/bin/Debug/netcoreapp3.1/fundamentals_I.runtimeconfig.dev.json
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/bin/Debug/netcoreapp3.1/fundamentals_I.dll
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/bin/Debug/netcoreapp3.1/fundamentals_I.pdb
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/obj/Debug/netcoreapp3.1/fundamentals_I.dll
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/obj/Debug/netcoreapp3.1/fundamentals_I.pdb
+/Users/CamPaign/Desktop/C_sharp/fundamentals_I/obj/Debug/netcoreapp3.1/fundamentals_I.genruntimeconfig.cache
