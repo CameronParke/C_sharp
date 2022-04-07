@@ -1,0 +1,12 @@
+/Users/CamPaign/Desktop/C_sharp/collections_practice/bin/Debug/netcoreapp3.1/collections_practice.deps.json
+/Users/CamPaign/Desktop/C_sharp/collections_practice/bin/Debug/netcoreapp3.1/collections_practice.runtimeconfig.json
+/Users/CamPaign/Desktop/C_sharp/collections_practice/bin/Debug/netcoreapp3.1/collections_practice.runtimeconfig.dev.json
+/Users/CamPaign/Desktop/C_sharp/collections_practice/bin/Debug/netcoreapp3.1/collections_practice.dll
+/Users/CamPaign/Desktop/C_sharp/collections_practice/bin/Debug/netcoreapp3.1/collections_practice.pdb
+/Users/CamPaign/Desktop/C_sharp/collections_practice/obj/Debug/netcoreapp3.1/collections_practice.csprojAssemblyReference.cache
+/Users/CamPaign/Desktop/C_sharp/collections_practice/obj/Debug/netcoreapp3.1/collections_practice.AssemblyInfoInputs.cache
+/Users/CamPaign/Desktop/C_sharp/collections_practice/obj/Debug/netcoreapp3.1/collections_practice.AssemblyInfo.cs
+/Users/CamPaign/Desktop/C_sharp/collections_practice/obj/Debug/netcoreapp3.1/collections_practice.csproj.CoreCompileInputs.cache
+/Users/CamPaign/Desktop/C_sharp/collections_practice/obj/Debug/netcoreapp3.1/collections_practice.dll
+/Users/CamPaign/Desktop/C_sharp/collections_practice/obj/Debug/netcoreapp3.1/collections_practice.pdb
+/Users/CamPaign/Desktop/C_sharp/collections_practice/obj/Debug/netcoreapp3.1/collections_practice.genruntimeconfig.cache
