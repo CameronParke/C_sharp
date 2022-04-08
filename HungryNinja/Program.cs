@@ -13,6 +13,8 @@ namespace HungryNinja
             {
                 ninja.Eat(buffet.Serve());
             }
+            Console.WriteLine($"Warning! The ninja has eaten {ninja.NumCalories} calories and is totally full!");
+            Console.WriteLine("");
         }
     }
 }
