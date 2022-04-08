@@ -1,0 +1,12 @@
+/Users/CamPaign/Desktop/C_sharp/Puzzles/bin/Debug/netcoreapp3.1/Puzzles.deps.json
+/Users/CamPaign/Desktop/C_sharp/Puzzles/bin/Debug/netcoreapp3.1/Puzzles.runtimeconfig.json
+/Users/CamPaign/Desktop/C_sharp/Puzzles/bin/Debug/netcoreapp3.1/Puzzles.runtimeconfig.dev.json
+/Users/CamPaign/Desktop/C_sharp/Puzzles/bin/Debug/netcoreapp3.1/Puzzles.dll
+/Users/CamPaign/Desktop/C_sharp/Puzzles/bin/Debug/netcoreapp3.1/Puzzles.pdb
+/Users/CamPaign/Desktop/C_sharp/Puzzles/obj/Debug/netcoreapp3.1/Puzzles.csprojAssemblyReference.cache
+/Users/CamPaign/Desktop/C_sharp/Puzzles/obj/Debug/netcoreapp3.1/Puzzles.AssemblyInfoInputs.cache
+/Users/CamPaign/Desktop/C_sharp/Puzzles/obj/Debug/netcoreapp3.1/Puzzles.AssemblyInfo.cs
+/Users/CamPaign/Desktop/C_sharp/Puzzles/obj/Debug/netcoreapp3.1/Puzzles.csproj.CoreCompileInputs.cache
+/Users/CamPaign/Desktop/C_sharp/Puzzles/obj/Debug/netcoreapp3.1/Puzzles.dll
+/Users/CamPaign/Desktop/C_sharp/Puzzles/obj/Debug/netcoreapp3.1/Puzzles.pdb
+/Users/CamPaign/Desktop/C_sharp/Puzzles/obj/Debug/netcoreapp3.1/Puzzles.genruntimeconfig.cache
