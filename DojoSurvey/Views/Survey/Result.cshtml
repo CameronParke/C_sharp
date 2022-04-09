@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Survey Index</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h2><u>Here is @ViewBag.name's Submitted Info</u></h2>
+        <div class="form-group">
+            <h3>Name: @ViewBag.Name</h3>
+        </div>
+        <div class="form-group">
+            <h3>Dojo Location: @ViewBag.location</h3>
+        </div>
+        <div class="form-group"> 
+            <h3>Favorite Language: @ViewBag.language</h3>
+        </div>
+        <div class="form-group">
+            <h3>Comment: @ViewBag.comment</h3>
+            </div>
+        <div class="form-group">
+            <a href="http://127.0.0.1:5000/">
+                <button value="Go Back" class="btn btn-primary">Go Back</button>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
