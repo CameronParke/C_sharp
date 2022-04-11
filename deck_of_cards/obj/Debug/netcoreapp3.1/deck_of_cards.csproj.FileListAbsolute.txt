@@ -1,0 +1,12 @@
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/obj/Debug/netcoreapp3.1/deck_of_cards.csprojAssemblyReference.cache
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/obj/Debug/netcoreapp3.1/deck_of_cards.AssemblyInfoInputs.cache
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/obj/Debug/netcoreapp3.1/deck_of_cards.AssemblyInfo.cs
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/obj/Debug/netcoreapp3.1/deck_of_cards.csproj.CoreCompileInputs.cache
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/bin/Debug/netcoreapp3.1/deck_of_cards.deps.json
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/bin/Debug/netcoreapp3.1/deck_of_cards.runtimeconfig.json
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/bin/Debug/netcoreapp3.1/deck_of_cards.runtimeconfig.dev.json
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/bin/Debug/netcoreapp3.1/deck_of_cards.dll
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/bin/Debug/netcoreapp3.1/deck_of_cards.pdb
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/obj/Debug/netcoreapp3.1/deck_of_cards.dll
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/obj/Debug/netcoreapp3.1/deck_of_cards.pdb
+/Users/CamPaign/Desktop/C_sharp/deck_of_cards/obj/Debug/netcoreapp3.1/deck_of_cards.genruntimeconfig.cache
