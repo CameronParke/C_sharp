@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web Page</title>
+</head>
+
+<body class="text-center">
+    <h1>Here are some delicious foods!</h1>
+    @{
+        string[] foodArray = new string[]
+        {
+            "Apple Pie",
+            "Burritos",
+            "Clams Casino",
+            "Donuts"
+        };
+
+        @foreach (string food in foodArray)
+        {
+            if (food[0].ToString() == "C")
+            {
+                <p class="text-danger">@food</p>
+            }
+            else
+            {
+                <p>@food</p>
+            }
+
+        }
+    }
+</body>
+
+</html>
