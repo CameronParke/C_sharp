@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IndexViewModel
+<div style="float:left;">
+    <form action="/register" class="form-signin" method="post">
+        <div class="row">
+            <div class="span6">
+                <h1 class="form-signin">Register</h1>
+                <div class="form-group">
+                    <label asp-for="NewUser.FirstName"></label>
+                    <input asp-for="NewUser.FirstName">
+                    <span asp-validation-for="NewUser.FirstName"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewUser.LastName"></label>
+                    <input asp-for="NewUser.LastName">
+                    <span asp-validation-for="NewUser.LastName"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewUser.Email"></label>
+                    <input asp-for="NewUser.Email">
+                    <span asp-validation-for="NewUser.Email"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewUser.Password"></label>
+                    <input asp-for="NewUser.Password">
+                    <span asp-validation-for="NewUser.Password"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewUser.ConfirmPassword"></label>
+                    <input asp-for="NewUser.ConfirmPassword">
+                    <span asp-validation-for="NewUser.ConfirmPassword"></span>
+                </div>
+                <input type="submit" value="Sign up">
+            </div>
+        </div>
+    </form>
+</div>
+<div style="float:right;">
+    <form action="/login" class="form-signin" method="post">
+        <div class="row">
+            <div class="span6">
+                <h1 class="form-signin">Login</h1>
+                <div class="form-group">
+                        <label asp-for="NewLogIn.Email"></label>
+                        <input asp-for="NewLogIn.Email">
+                        <span asp-validation-for="NewLogIn.Email"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewLogIn.Password"></label>
+                    <input asp-for="NewLogIn.Password">
+                    <span asp-validation-for="NewLogIn.Password"></span>
+                </div>
+                <input type="submit" value="LogIn">
+            </div>
+        </div>
+    </form>
+</div>
