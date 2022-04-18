@@ -1,0 +1,35 @@
+@model LoginUser
+
+<div class="container px-0 pt-4">
+    <div class="row mx-0 pt-3">
+            <div class="col-10 d-flex">
+                <div class="d-sm-flex">
+                    <h1>Login to this Cool Site!</h1>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="d-sm-flex pt-4">
+                        <a href="/" style="text-decoration: underline;">Register</a>
+                </div>
+            </div>
+    </div>
+    <form action="/loggingin" method="post" class="row">
+        <div class="row">
+            <div class="col-4">
+                <div class="form-group col-xs-4 pt-4">
+                    <label for="LogEmail">Email</label>
+                    <input asp-for="LogEmail" class="pt-1">
+                    <span asp-validation-for="LogEmail" class="text-danger"></span>
+                </div>
+                <div class="form-group col-xs-4">
+                    <label for="LogPassword">Password</label>
+                    <input asp-for="LogPassword" class="pt-1">
+                    <span asp-validation-for="LogPassword" class="text-danger"></span>
+                </div>
+                <div class="form-group col-xs-6">
+                    <input type="submit" value="Sign in Now" class="btn btn-primary">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
