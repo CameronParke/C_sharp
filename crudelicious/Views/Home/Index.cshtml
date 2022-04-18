@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Dish
+<div class="container pt-4">
+    <h1 class="text-center">Welcome to CRUDelicious</h1>
+    <div class="row pt-3">
+        <div class="col-10">
+            <div class="d-sm-flex">
+                <ul class="list-unstyled justify-content-start d-flex">
+                    <li class="d-flex justify-content-around align-items-center mr-2">
+                        Check out some recent dishes!
+                    </li>
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-sm-flex">
+                <li class="d-flex">
+                    <a href="new" style="text-decoration: underline;">Add a Dish</a>
+                </li>
+            </div>
+        </div>
+        </ul>
+    </div>
+    <hr class="w-25" align="left" noshade>
+    <div>
+        <ul class="list-unstyled">
+            @foreach(Dish d in ViewBag.AllDishes)
+            {
+                <li><a href="/@d.DishId" style="text-decoration: underline;">@d.Name</a> by @d.Chef</li>
+            }
+        </ul>
+    </div>
+</div>

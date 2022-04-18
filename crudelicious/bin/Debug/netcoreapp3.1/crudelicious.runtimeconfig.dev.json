@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/CamPaign/.dotnet/store/|arch|/|tfm|",
+      "/Users/CamPaign/.nuget/packages"
+    ]
+  }
+}

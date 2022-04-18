@@ -1,0 +1,34 @@
+@model Dish
+
+@foreach (var d in @ViewBag.OneDish)
+{
+    <div class="container pt-4">
+        <div>
+            <div class="navbar-collapse collapse d-sm-flex">
+                <p><a style="text-decoration: underline;" asp-controller="Home" asp-area="" asp-action="Index">Home</a></p>
+            </div>
+            <div>
+                <div class="row flex-column">
+                    <h1 class="text-center">@d.Name</h1>
+                </div>
+                <div class="row align-items-center flex-column">
+                    <div class="col-10">
+                        <div class="row pt-1 align-items-center flex-column">
+                            <h5>@d.Chef</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="w-50" noshade>
+        <ul class="list-unstyled">
+            <li class="mb-3">@d.Description</li>
+            <li class="mb-3"><b>Calories:</b> @d.Calories</li>
+            <li class="mb-3"><b>Tastiness:</b> @d.Tastiness</li>
+        </ul>
+    </div>
+        <div class="d-flex pt-5 justify-content-around">
+            <a class="btn btn-danger" href="/remove/@d.DishId">Delete</a>
+            <a class="btn btn-primary" href="/edit/@d.DishId">Edit</a>
+        </div>
+}
