@@ -1,0 +1,42 @@
+@model Dish
+
+<div class="container px-0 pt-4">
+    <div class="row mx-0 pt-3">
+            <div class="col-10 d-flex justify-content-center">
+                <div class="d-sm-flex">
+                    <h1><a href="/" style="text-decoration: underline;">Chefs</a> | Dishes</h1>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="d-sm-flex pt-4">
+                        <a href="/dishes/new" style="text-decoration: underline;">Add a Dish</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-4">
+        <h2>Yum, take a look at our tasty dishes!</h2>
+    </div>
+    <hr class="w-50" align="left" noshade>
+    <table class="table table-striped">
+        <thead class="thead-light">
+            <tr>
+            <th>Name</th>
+            <th>Chef</th>
+            <th>Tastiness</th>
+            <th>Calories</th>
+            </tr>
+        </thead>
+        @{
+            foreach(Dish d in ViewBag.AllDishes)
+            {
+                <tr>
+                    <td>@d.DishName</td>
+                    <td>@d.Cook.FirstName @d.Cook.LastName</td>
+                    <td>@d.Tastiness</td>
+                    <td>@d.Calories</td>
+                </tr>
+            }
+        }
+    </table>
+</div>

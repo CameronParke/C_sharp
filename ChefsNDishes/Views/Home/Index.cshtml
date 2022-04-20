@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Chef
+
+<div class="container px-0 pt-4">
+    <div class="row mx-0 pt-3">
+            <div class="col-10 d-flex justify-content-center">
+                <div class="d-sm-flex">
+                    <h1>Chefs | <a href="/dishes" style="text-decoration: underline;">Dishes</a></h1>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="d-sm-flex pt-4">
+                        <a href="/new" style="text-decoration: underline;">Add a Chef</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-4">
+        <h2>Check out our roster of Chefs!</h2>
+    </div>
+    <hr class="w-50" align="left" noshade>
+    <table class="table table-striped">
+        <thead class="thead-light">
+            <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th># of Dishes</th>
+            </tr>
+        </thead>    
+        @{
+            foreach(Chef c in ViewBag.AllChefs)
+            {
+                <tr>
+                    <td>@c.FirstName @c.LastName</td>
+                    <td>
+                    @{
+                        var today = DateTime.Today;
+                        var age = today.Year - c.DateOfBirth.Year;
+                        if(c.DateOfBirth.Date > today.AddYears(-age)) age--;
+                    } @age
+                    </td>
+                    <td>@c.RecipeBook.Count()</td>
+                </tr>
+            }
+        }
+    </table>
+</div>
