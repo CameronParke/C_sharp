@@ -27,7 +27,6 @@ namespace ChefsNDishes.Controllers
         public IActionResult Index()
         {
             ViewBag.AllChefs = _context.Chefs.Include(r => r.RecipeBook).ToList();
-            
             return View();
         }
 
