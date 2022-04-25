@@ -1,0 +1,57 @@
+<div class="container px-0 pt-4">
+    <div class="row pt-3 align-items-center">
+        <div class="col-10">
+            <div class="d-sm-flex">
+                <ul class="list-unstyled justify-content-start d-flex">
+                    <li class="d-flex justify-content-around align-items-center mr-2">
+                        <h1>Welcome to the Wedding Planner</h1>
+                    </li>
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-sm-flex">
+                <li class="d-flex">
+                    <h3><a href="/logout" style="text-decoration: underline;">Log Out</a></h3>
+                </li>
+            </div>
+        </div>
+        </ul>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead class="thead-light">
+            <tr>
+                <th>Wedding</th>
+                <th>Date</th>
+                <th>Guest</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach(Wedding d in ViewBag.AllWeddings)
+                {
+                    <tr>
+                        <td><h5><a href="/wedding/@d.WeddingId">@d.WedderOne & @d.WedderTwo</a></h5></td>
+                        <td>@d.Date.ToString("MMMM dd, yyyy")</td>
+                        <td>@d.GuestList.Count()</td>
+                        <td>@if(d.UserId == ViewBag.LoggedIn.UserId)
+                            {
+                                <a href="/wedding/delete/@d.WeddingId" style="color: red;">Delete</a> 
+                            } 
+                            else if(d.GuestList.Any(a => a.UserId == @ViewBag.LoggedIn.UserId))
+                            {
+                                <a href="/unrsvp/@d.WeddingId" style="color: red;">Un-RSVP</a>
+                            }
+                            else {
+                                <a href="/rsvp/@d.WeddingId">RSVP</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    <div class="form-group d-flex justify-content-end">
+        <a href="/add/wedding" class="btn btn-primary">New Wedding</a>
+    <div>
+</div>

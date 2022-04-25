@@ -1,0 +1,45 @@
+<div class="container pl-0">
+    <div class="row pt-3 align-items-center">
+        <div class="col-8">
+            <div class="d-sm-flex">
+                <ul class="list-unstyled justify-content-start d-flex">
+                    <li class="d-flex justify-content-around align-items-center mr-2">
+                        <h1>@ViewBag.Wedding.WedderOne and @ViewBag.Wedding.WedderTwo's Wedding</h1>
+                    </li>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="d-sm-flex">
+                <li class="d-flex">
+                    <h4><a href="/dashboard" style="text-decoration: underline;">Dashboard</a></h4>
+                </li>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="d-sm-flex"></div>
+                <li class="d-flex">
+                    <h4><a href="/logout" style="text-decoration: underline;">Log Out</a></h4>
+                </li>
+            </div>
+        </div>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-6 pb-3">
+            <h3>Date: @ViewBag.Wedding.Date.ToString("MMMM dd, yyyy")</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <h3>Guests:</h3>
+            <ul class="list-unstyled">
+                @foreach(var g in @ViewBag.GuestList)
+                {
+                    <li class="py-1">@g.User.FirstName @g.User.LastName</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
