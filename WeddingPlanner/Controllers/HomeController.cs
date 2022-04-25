@@ -87,7 +87,7 @@ namespace WeddingPlanner.Controllers
             
             ViewBag.LoggedIn = _context.Users.FirstOrDefault(a => a.UserId == HttpContext.Session.GetInt32("UserId")); // get logged in user
             
-            ViewBag.AllWeddings = _context.Weddings.OrderBy(d => d.Date).Include(p => p.Planner).Include(g => g.GuestList).ToList(); // get all the weddings, include Planner (User that created the Wedding)
+            ViewBag.AllWeddings = _context.Weddings.OrderBy(d => d.Date).Include(p => p.Planner).Include(g => g.GuestList).ToList(); // get all the weddings, include Planner (User that created the Wedding) and Guestlist
             return View();
         }
 
